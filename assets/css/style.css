@@ -380,25 +380,21 @@ form input[type="submit"] {
 }
 
 /* (10) ??? */
-.footer2 {
-    background-color: #312a26;
+.footer-social {
+    background-color: #19100f;
     overflow: auto;
-
-
+    padding: 1em 7.5%;
 }
 .social-widgets {
-    overflow: auto;
+    width:32.66%; 
+float:left;
     color: #fff;
-    padding: 30% auto;
-    display: inline;
-
+    text-align: center;
 }
 .social-widgets h3 {
     border: 3px solid blue;
     width: 30%;
     text-transform: uppercase;
-    margin-left: 7em;
-    float: left;
 }
 .social-widgets a {
     display: inline-block;
@@ -412,5 +408,4 @@ form input[type="submit"] {
 .social-widgets p {
     border: 3px solid red;
     display: inline-block;
-    
 }
